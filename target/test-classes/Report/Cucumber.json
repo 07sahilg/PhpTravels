@@ -1,0 +1,107 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "SignUp Validation",
+        "description": "",
+        "id": "to-validate-the-signup-feature;signup-validation",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 30036970700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on PHPTravels HomePage",
+            "match": {
+              "location": "SignUpSteps.user_is_on_PHPTravels_HomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 553376000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user clicks My Account",
+            "match": {
+              "location": "SignUpSteps.user_clicks_My_Account()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4385588800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user select Sign Up",
+            "match": {
+              "location": "SignUpSteps.user_select_Sign_Up()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4243652200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters the personal details",
+            "match": {
+              "location": "SignUpSteps.user_enters_the_personal_details(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "John",
+                  "Michael",
+                  "9876543210",
+                  "John123@gmail.com",
+                  "John@123",
+                  "John@123"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 527982800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user clicks Sign Up button",
+            "match": {
+              "location": "SignUpSteps.user_clicks_Sign_Up_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2127722200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "close the browser",
+            "match": {
+              "location": "SignUpSteps.close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "To Validate the SignUp Feature",
+    "description": "",
+    "id": "to-validate-the-signup-feature",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Feature/SignUp.feature",
+    "tags": []
+  }
+]

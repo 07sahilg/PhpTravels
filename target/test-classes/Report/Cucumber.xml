@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="41.884851">
+    <testcase classname="To Validate the SignUp Feature" name="SignUp Validation" time="41.884851">
+        <system-out><![CDATA[Given user is on PHPTravels HomePage........................................passed
+When user clicks My Account.................................................passed
+And user select Sign Up.....................................................passed
+And user enters the personal details........................................passed
+Then user clicks Sign Up button.............................................passed
+And close the browser.......................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
